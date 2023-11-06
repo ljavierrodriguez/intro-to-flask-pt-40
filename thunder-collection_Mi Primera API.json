@@ -1,0 +1,130 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mi Primera API",
+    "dateExported": "2023-11-06T22:49:58.672Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6012a835-f0eb-460d-a34e-633c34d405bd",
+            "colId": "14e95de0-b056-43c9-809d-efd7d95cb422",
+            "containerId": "",
+            "name": "GET API",
+            "url": "http://127.0.0.1:5000",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-06T22:01:26.912Z",
+            "modified": "2023-11-06T22:04:24.090Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c633bb11-d0b7-4e17-86d8-499cf286067b",
+            "colId": "14e95de0-b056-43c9-809d-efd7d95cb422",
+            "containerId": "",
+            "name": "POST User",
+            "url": "http://127.0.0.1:5000/user",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-06T22:19:27.867Z",
+            "modified": "2023-11-06T22:42:48.998Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastname\": \"Doe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c5e8dbba-ff29-4401-a409-833935d0ef78",
+            "colId": "14e95de0-b056-43c9-809d-efd7d95cb422",
+            "containerId": "",
+            "name": "PUT User",
+            "url": "http://127.0.0.1:5000/user",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2023-11-06T22:23:41.541Z",
+            "modified": "2023-11-06T22:41:41.084Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "lrodriguez@gmail.com",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "avatar",
+                        "value": "/Users/lrodriguez/Pictures/39092252.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b83e9d21-cee1-4845-ba2e-78ef4979730d",
+            "colId": "14e95de0-b056-43c9-809d-efd7d95cb422",
+            "containerId": "",
+            "name": "Get User By Id",
+            "url": "http://127.0.0.1:5000/user/100",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-06T22:11:24.256Z",
+            "modified": "2023-11-06T22:11:58.610Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dee5ffd7-c060-4af2-85ec-894c0d4e4481",
+            "colId": "14e95de0-b056-43c9-809d-efd7d95cb422",
+            "containerId": "",
+            "name": "Get User By Query String",
+            "url": "http://127.0.0.1:5000/user?name=luis&pt=40",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-06T22:13:21.998Z",
+            "modified": "2023-11-06T22:14:00.093Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "luis",
+                    "isPath": false
+                },
+                {
+                    "name": "pt",
+                    "value": "40",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "853e33ad-c836-4cff-869c-cb24edc3613c",
+            "colId": "14e95de0-b056-43c9-809d-efd7d95cb422",
+            "containerId": "",
+            "name": "Noticias",
+            "url": "http://127.0.0.1:5000/noticias",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-06T22:38:36.538Z",
+            "modified": "2023-11-06T22:39:46.019Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
